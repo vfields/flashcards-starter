@@ -23,11 +23,9 @@ class Round {
     if (this.turns === 0) {
       return 0;
     }
-    else {
-      let correctGuesses = this.turns - this.incorrectGuesses.length;
-      let percentage = 100 * (correctGuesses / this.turns);
-      return Math.round(percentage);
-    }
+    let correctGuesses = this.turns - this.incorrectGuesses.length;
+    let percentage = 100 * (correctGuesses / this.turns);
+    return Math.round(percentage);
   }
   endRound() {
     let message = `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`;
