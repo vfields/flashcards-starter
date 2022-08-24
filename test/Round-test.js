@@ -34,6 +34,7 @@ describe('Round', () => {
 
   it ('should store a deck of cards', () => {
     expect(round.deck).to.deep.equal([card, card2, card3]);
+    expect(round2.deck).to.deep.equal([card3, card2, card]);
   });
 
   it ('should store current card as first card in the deck at the start of the round', () => {
@@ -107,8 +108,6 @@ describe('Round', () => {
   });
 
   it ('should alert a user when the round is over and of their percentage correct', () => {
-    // not sure how to test console output with Chai syntax without requiring
-    // something called, 'mocha-sinon'? used variable return for testing solution for now
     round.takeTurn('object');
     round.takeTurn('hooks');
     round.takeTurn('object');
