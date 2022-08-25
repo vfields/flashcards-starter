@@ -12,7 +12,7 @@ Are you looking for a way to spice up your study habits? This application allows
 6. Once inside, use the <code>node index.js</code> command to open the application and follow the prompts, inputting the corresponding <code>number</code> of the answer choice you think is correct, and pressing <code>enter</code> to move on to the next question!
 
 ## Preview of App:
-// gif of the game working
+![flash cards example gif](https://media.giphy.com/media/82V5LPeDYBtnU1QOyL/giphy.gif)
 
 ## Tech Used:
 This object-oriented application utilizes JavaScript, Mocha, and Chai!
