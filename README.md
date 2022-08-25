@@ -22,7 +22,7 @@ This solo project was assigned during Turing’s first week of Module 2, where t
 
 ## Contributors:
 Tori Fields:
-[LinkedIn](https://www.linkedin.com/in/victoria-ashley-fields/) & [GitHub] (https://github.com/vfields)
+[LinkedIn](https://www.linkedin.com/in/victoria-ashley-fields/) & [GitHub](https://github.com/vfields)
 
 ## Learning Goals:
 While this project allowed for practicing ES6 syntax and writing reusable, SRP functions, the emphasis was on creating a robust testing suite using TDD.
